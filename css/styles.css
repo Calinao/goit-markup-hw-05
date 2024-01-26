@@ -68,10 +68,6 @@ link {
     color: var(--spanLogo);
 }
 
-
-
-
-
 .link-one {
     text-decoration: none;
     color: var(--spanLogo);
@@ -89,6 +85,7 @@ link {
     height: 4px;
     background-color: #404bbf;
     border-radius: 2px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-one:hover {
