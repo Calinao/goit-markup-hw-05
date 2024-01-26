@@ -68,15 +68,7 @@ link {
     color: var(--spanLogo);
 }
 
-.nav-link-one::after{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom:-1px;
-    height: 4px;
-    background-color: #404bbf;
-    border-radius: 2px;
-}
+
 
 
 
@@ -87,6 +79,16 @@ link {
     text-decoration: none;
     position: relative;
     color: #404bbf;
+}
+
+.link-one::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom:-1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
 }
 
 .link-one:hover {
