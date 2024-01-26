@@ -623,9 +623,32 @@ link {
     color: var(--addressLink);
 }
 
+.portfolio-link-lists-p:hover {
+    transform: translateY(0%);
+}
+
+.portfolio-link-lists-p:focus {
+    transform: translateY(0%);
+}
+
 .portfolio-link-img-container {
     position: relative;
     overflow: hidden;
+}
+
+.portfolio-link-img-container-p {
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--footerText);
+    padding: 40px 32px;
+    background-color: #4D5AE5;
+    height: 100%;
+    width: 100%;
+    transform: translateY(0%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* hw3 */
