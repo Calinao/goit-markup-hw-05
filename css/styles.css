@@ -623,11 +623,11 @@ link {
     color: var(--addressLink);
 }
 
-.portfolio-link-lists-p:hover {
+.portfolio-link-img-container-p:hover {
     transform: translateY(0%);
 }
 
-.portfolio-link-lists-p:focus {
+.portfolio-link-img-container-p:focus {
     transform: translateY(0%);
 }
 
