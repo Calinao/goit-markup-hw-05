@@ -67,8 +67,16 @@ link {
     letter-spacing: .02em;
     color: var(--spanLogo);
     text-decoration: none;
-
+    position: relative;
+    color: #404bbf;
 }
+
+.nav-link-one::after{
+    content: "";
+    position: absolute;
+}
+
+
 
 .link-one {
     text-decoration: none;
